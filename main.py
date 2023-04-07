@@ -23,6 +23,7 @@ def multiplicar(a, b):
 
 # Función para dividir dos números
 def dividir(a, b):
+# SI se divide entre 0 da el siguiente mensaje 
     if b == 0:
         return Fore.RED(
             "╔══════════════════════════════════════════════════════════════════════════════ »•» 🌺 «•« ═╗\n"
@@ -53,7 +54,7 @@ mensajes_tsundere = [
     "Si quieres que te ayude, deberías decir 'por favor' primero, ¿no crees?",
 ]
 
-# Función para imprimir un mensaje tsundere aleatorio
+# Función para imprimir un mensaje aleatorio
 def mensaje_tsundere():
     mensaje = random.choice(mensajes_tsundere)
     return mensaje
@@ -181,7 +182,7 @@ if (
         + "\n"
         + "╚═══════ »•» 🌺 «•« ══╝\n"
     )
-    # imprime un mensaje tsundere al azar
+    # imprime un mensaje al azar
     print(
         "\033[1m\033[3m"
         + Fore.YELLOW
@@ -211,7 +212,7 @@ elif (
         + "\n"
         + "╚═══════ »•» 🌺 «•« ══╝\n"
     )
-    # imprime un mensaje tsundere al azar
+    # imprime un mensaje al azar
     print(
         "\033[1m\033[3m"
         + Fore.YELLOW
@@ -242,7 +243,7 @@ elif (
         + "\n"
         + "╚═══════ »•» 🌺 «•« ══╝\n"
     )
-    # imprime un mensaje tsundere al azar
+    # imprime un mensaje al azar
     print(
         "\033[1m\033[3m"
         + Fore.YELLOW
@@ -272,7 +273,7 @@ elif (
         + "\n"
         + "╚═══════ »•» 🌺 «•« ══╝\n"
     )
-    # imprime un mensaje tsundere al azar
+    # imprime un mensaje al azar
     print(
         "\033[1m\033[3m"
         + Fore.YELLOW
