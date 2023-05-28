@@ -3,6 +3,7 @@ import random
 import colorama
 from colorama import Fore, Style
 
+#### recordatorio de funciones realmente no funcionan ########
 # Función para sumar dos números
 def sumar(a, b):
     resultado = a + b
@@ -33,6 +34,8 @@ def dividir(a, b):
     else:
         resultado = a / b
         return resultado
+################################
+
 
 
 # Mensajes de la imouto tsundere
