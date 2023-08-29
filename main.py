@@ -3,7 +3,7 @@ import random
 import colorama
 from colorama import Fore, Style
 
-#### recordatorio de funciones realmente no funcionan ########
+
 # Función para sumar dos números
 def sumar(a, b):
     resultado = a + b
@@ -40,22 +40,23 @@ def dividir(a, b):
 
 # Mensajes de la imouto tsundere
 mensajes_tsundere = [
-    "Hmp... está bien, pero solo porque eres tú",
-    "No me hagas perder mi tiempo",
-    "No esperes que te ayude siempre",
-    "¿Acaso no puedes hacerlo tú mismo?",
-    "No creas que soy tu sirvienta personal",
-    "Grrr... ¿por qué siempre tienes que pedirme ayuda?",
-    "No te emociones tanto, solo estoy haciendo mi trabajo",
-    "¿Es en serio? No puedo creer que me pidas eso.",
-    "¡¿Qué?! ¿Cómo te atreves a decirme eso?",
-    "Bueno, supongo que no tengo nada mejor que hacer...",
-    "Tsk, no esperes que te trate como a un rey.",
-    "No soy tu juguete, así que no me hagas enojar.",
-    "¡Ugh! ¿Por qué siempre tienes que ser tan molesto?",
-    "Hmph, tú no eres el único que tiene cosas que hacer, ¿sabes?",
-    "Si quieres que te ayude, deberías decir 'por favor' primero, ¿no crees?",
+    "Hmp... está bien, pero solo porque eres tú. Espero que valores mi esfuerzo.",
+    "No me hagas perder mi tiempo. Aunque lo admito, tienes mi atención.",
+    "No esperes que te ayude siempre. Hoy estoy de buen humor, pero no te acostumbres.",
+    "¿Acaso no puedes hacerlo tú mismo? Parece que siempre recurres a mí.",
+    "No creas que soy tu sirvienta personal. Aunque... quizás disfruto ayudándote.",
+    "Grrr... ¿por qué siempre tienes que pedirme ayuda? No puedo evitar ceder ante ti.",
+    "No te emociones tanto, solo estoy haciendo mi trabajo. Aunque confieso que me importas.",
+    "¿Es en serio? No puedo creer que me pidas eso. Aunque aquí estoy, como siempre.",
+    "¡¿Qué?! ¿Cómo te atreves a decirme eso? Me sacas de quicio, pero no puedo ignorarte.",
+    "Bueno, supongo que no tengo nada mejor que hacer... No lo cuentes por ahí, ¡eh!",
+    "Tsk, no esperes que te trate como a un rey. Pero mereces mi... colaboración.",
+    "No soy tu juguete, así que no me hagas enojar. Aunque jugar juntos no suena mal.",
+    "¡Ugh! ¿Por qué siempre tienes que ser tan molesto? A pesar de todo, aquí estoy.",
+    "Hmph, tú no eres el único que tiene cosas que hacer, ¿sabes? Pero haré una excepción.",
+    "Si quieres que te ayude, deberías decir 'por favor' primero, ¿no crees? Eso me convencería más.",
 ]
+
 
 # Función para imprimir un mensaje aleatorio
 def mensaje_tsundere():
@@ -70,7 +71,7 @@ def calcular():
         "\033[1m\033[3m"
         + Fore.LIGHTMAGENTA_EX
         + "╔════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════ »•» 🌺 «•« ═╗\n"
-        + " No es que me importe mucho, pero por fin llegaste, Onii-chan... ¿Por qué tardaste tanto? Ya te estaba esperando, pero no esperes que te trate con demasiada dulzura, ¿eh?\n"
+        + " por fin llegaste, Onii-chan... ¿Por qué tardaste tanto? Ya te estaba esperando, pero no esperes que te trate con demasiada dulzura, ¿eh? De todas formas, bienvenido.\n"
         + "╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════ »•» 🌺 «•« ══╝",
     )
 
