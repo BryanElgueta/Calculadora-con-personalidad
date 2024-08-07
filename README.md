@@ -1,4 +1,4 @@
-# Calculadora Tsundere
+# Calculadora con Personalidad
 Calculadora Tsundere es una calculadora simple escrita en Python. Se le llama "tsundere" porque la calculadora a veces insulta al usuario si ingresa una entrada inválida o realiza una operación incorrecta, pero también puede ser amable y felicitar al usuario si la entrada es correcta.
 
 ##  Funcionalidades
